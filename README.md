@@ -22,6 +22,7 @@ Or install it yourself as:
 
 ### Sinatra
 
+on configure block.
 ```ruby
 use Rack::Session::Memcached,
   memcache_server: 'localhost:11211',
