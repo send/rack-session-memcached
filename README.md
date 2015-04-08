@@ -1,4 +1,4 @@
-# Rack::Session::Memcached
+# Rack::Session::Memcached [![Build Status](https://travis-ci.org/send/rack-session-memcached.svg?branch=master)](https://travis-ci.org/send/rack-session-memcached)
 
 Rack::Session::Memcached provides cookie based session.
 
