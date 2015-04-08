@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rack/session/memcached/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rack-session-memcached"
-  spec.version       = Rack::Session::Memcached::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["SAKAI, Kazuaki"]
   spec.email         = ["kaz.july.7@gmail.com"]
 
