@@ -24,10 +24,6 @@ describe Rack::Session::Memcached do
   let(:session_match) { /#{session_key}=([0-9a-fA-F]+);/ }
   let(:session_key) { Rack::Session::Memcached::DEFAULT_OPTIONS[:key] }
 
-  it 'has a version number' do
-    expect(Rack::Session::Memcached::VERSION).not_to be nil
-  end
-
   it 'connects to existing server' do
     expect{
       session = Rack::Session::Memcached.new(incrementor, namespace: 'test:rack:session')

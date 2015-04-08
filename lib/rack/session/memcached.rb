@@ -1,6 +1,5 @@
 require 'memcached'
 require 'rack/session/abstract/id'
-require 'rack/session/memcached/version'
 
 module Rack
   module Session
